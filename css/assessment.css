@@ -1,0 +1,59 @@
+img{
+    width: 120px; 
+    margin-bottom: 15px; 
+    /*Your code here*/
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+ }
+ h1 {
+    display: block;
+    text-align: center;
+ }
+ div{
+    padding: 30px; 
+    margin:5px; 
+    /* YOUR CODE HERE */
+    align-self: center;
+    justify-self: center;
+    
+
+ }
+ p {
+    color: aquamarine;
+ }
+ body {
+    background-image: url('../images/back-ground.jpeg');
+ }
+ #mystuff {
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+
+ @media all and (min-width: 850px){
+   #mystuff{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      
+   }
+   div {
+      
+      align-self: center;
+      justify-self: center;
+      
+      
+   }
+   div:nth-child(2n) {
+      border: 2px solid black;
+      box-sizing: border-box;
+      width: 98%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+     
+      
+
+   }
+ }
